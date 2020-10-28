@@ -4,8 +4,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<base target="_blank">
 
-	<title class="pageTitle">{{ site.page_title }}</title>
+	<title class="pageTitle">{{ site.app_name }}</title>
 	<meta name="description" content="{{ site.app_description }}">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="{{ site.app_name }}">
+	<meta property="og:description" content="{{ site.app_description }}">
+	<meta property="og:image" content="assets/metaimage.jpg">
+	<meta property="og:site_name" content="{{ site.app_name }}">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="{{ site.app_name }}">
+	<meta name="twitter:description" content="{{ site.app_description }}">
+	<meta name="twitter:image" content="assets/metaimage.jpg">
 
 	<link rel="shortcut icon" href="{{ site.app_icon }}">
 
